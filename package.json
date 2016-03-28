@@ -1,0 +1,26 @@
+{
+  "name": "rims",
+  "version": "0.1.0",
+  "description": "Scaffold isomorphic redux applications",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nnarhinen/rims.git"
+  },
+  "author": "Niklas Närhinen <niklas@narhinen.net>",
+  "license": "GPLv3",
+  "bugs": {
+    "url": "https://github.com/nnarhinen/rims/issues"
+  },
+  "homepage": "https://github.com/nnarhinen/rims",
+  "devDependencies": {
+    "ava": "^0.13.0",
+    "test-cli": "^0.1.0"
+  },
+  "dependencies": {
+    "minimist": "^1.2.0"
+  }
+}
