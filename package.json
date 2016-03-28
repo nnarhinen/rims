@@ -18,9 +18,12 @@
   "homepage": "https://github.com/nnarhinen/rims",
   "devDependencies": {
     "ava": "^0.13.0",
-    "test-cli": "^0.1.0"
+    "test-cli": "^0.1.0",
+    "tmp": "0.0.28"
   },
   "dependencies": {
-    "minimist": "^1.2.0"
+    "async": "^2.0.0-rc.2",
+    "minimist": "^1.2.0",
+    "mkdirp": "^0.5.1"
   }
 }
