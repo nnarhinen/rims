@@ -11,3 +11,12 @@ test.cb('No input, show help', t => {
     t.end();
   });
 });
+
+test.cb('rims help, list commands', t => {
+  t.plan(2);
+  rims('help', (stdout, stderr, code) => {
+    t.is(code, 0);
+    t.ok(/Available commands/.test(stdout));
+    t.end();
+  });
+});
